@@ -24,6 +24,10 @@ To configure bot token, in config.json file replace "TOKEN_GOES_HERE" with your 
 }
 ```
 After installation finished and configured, run `npm run start` to start the bot.
+## Credits and copyrights
 ### MadeByPavich, A Pavich Komansil Project
 © 2019-2024 Pavich Komansil. All rights reserved. All code, MadeByPavich logos, PrismMusic logos, and all assets associated with this project are the property and copyright of Pavich Komansil.
-
+### Special Thanks for these guys
+**Programmer:** PavichIsΔDev @pavichisadev \
+**Logo Designer:** eel @eelectromagnetic_radiation \
+**Early Tester:** iceice188 @iceice188
