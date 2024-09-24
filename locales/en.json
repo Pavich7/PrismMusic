@@ -1,0 +1,175 @@
+{
+	"help": {
+		"description": "Show bot Help menu.",
+		"embedTitle": "{botname} Help",
+		"embedDescription": "List of all commands"
+	},
+	"credits": {
+		"description": "Show bot creators credits."
+	},
+	"premium": {
+		"description": "Check premium status."
+	},
+	"whatsnew": {
+		"description": "Show latest bot maintenance notes."
+	},
+	"invite": {
+		"description": "Send bot invite link."
+	},
+	"loop": {
+		"description": "Toggle music loop.",
+		"errorNotQueue": "⚠️ Nothing playing",
+		"result": "🔁 Loop : {loop}"
+	},
+	"shuffle": {
+		"description": "Shuffle queue",
+		"errorNotQueue": "⚠️ No queue.",
+		"result": "<@{author}> 🔀 Shuffled"
+	},
+	"lyrics": {
+		"description": "Show lyrics for the currently playing song. (Premium)",
+		"errorNotQueue": "⚠️ There is nothing playing",
+		"lyricsNotFound": "❌ Lyrics not found",
+		"embedTitle": "🎙️ {title} - Lyrics"
+	},
+	"move": {
+		"description": "Move songs around in the queue.",
+		"errorNotQueue": "⚠️ There is no queue.",
+		"usagesReply": "ℹ️ Usage : +move (Queue Number)",
+		"result": "<@{author}> 🚚 Moved **{title}** ➡️ {index}",
+		"args": {
+			"movefrom": "Slot to move from",
+			"moveto": "Slot to move to"
+		}
+	},
+	"nowplaying": {
+		"description": "Show current playing song.",
+		"errorNotQueue": "⚠️ There is nothing playing",
+		"embedTitle": "🎶 Now playing",
+		"live": " ◉ LIVE",
+		"timeRemaining": "⏱️ Time Remaining: {time}"
+	},
+	"pause": {
+		"description": "Pause the currently playing music.",
+		"errorNotQueue": "⚠️ There is no queue.",
+		"result": "<@{author}> ⏸ Paused"
+	},
+	"ping": {
+		"description": "Show the bot's average ping",
+		"result": "📈 Average API Ping `{ping} ms`"
+	},
+	"play": {
+		"description": "Plays audio from YouTube or Link.",
+		"errorNotChannel": "⚠️ Join voice channel first!",
+		"errorNotInSameChannel": "⚠️ You must be in the same channel as {user}",
+		"usageReply": "ℹ️ Usage: {prefix}play [YouTube URL] or [Video Name]",
+		"missingPermissionConnect": "❌ Missing connect permissions",
+		"missingPermissionSpeak": "❌ Missing speak permissions",
+		"queueAdded": "✅ **{title}** added to the queue by <@{author}>",
+		"cantJoinChannel": "❌ Could not join: {error}",
+		"queueEnded": "🚧 Queue ended.",
+		"queueError": "❌ Error: {error}",
+		"startedPlaying": "🎶 Started: **{title}**",
+		"skipSong": "<@{author}> ⏩ Skipped",
+		"pauseSong": "<@{author}> ⏸ Paused",
+		"resumeSong": "<@{author}> ▶ Resumed",
+		"unmutedSong": "<@{author}> 🔊 Unmuted",
+		"mutedSong": "<@{author}> 🔇 Muted",
+		"decreasedVolume": "<@{author}> 🔉 {volume}%",
+		"increasedVolume": "<@{author}> 🔊 {volume}%",
+		"loopSong": "<@{author}> 🔁 Loop : {loop}",
+		"stopSong": "<@{author}> ⏹ Stopped",
+		"leaveChannel": "👋 Leaving VC...",
+		"songNotFound": "❌ Song Not Found",
+		"songAccessErr": "❌ Video Error, Unavailable",
+		"errorNoResults": "❌ No result for {url}",
+		"errorInvalidURL": "❌ Invalid URL"
+	},
+	"playlist": {
+		"description": "Play a playlist from Youtube or Link. (Premium)",
+		"usagesReply": "ℹ️ Usage : +playlist (YouTube Playlist URL | Playlist Name)",
+		"errorNotChannel": "⚠️ Please join voice channel before playing playlist",
+		"errorNotInSameChannel": "⚠️ Need to be in same channel as {user}",
+		"missingPermissionConnect": "⚠️ Missing Permission (Connect Voice)",
+		"missingPermissionSpeak": "⚠️ Missing Permission (Speak Voice)",
+		"errorNotFoundPlaylist": "❌ Playlist not found",
+		"fetchingPlaylist": "⌛ Fetching playlist data...",
+		"playlistCharLimit": "\n ❌ Playlist larger than limit",
+		"startedPlaylist": "<@{author}> Started (Playlist)",
+		"cantJoinChannel": "❌ Could not join the channel: {error}"
+	},
+	"queue": {
+		"description": "Show the music and playing queue.",
+		"missingPermissionMessage": "⚠️ Missing Permission (Manage Message, Add Reaction)",
+		"errorNotQueue": "❌ **Nothing playing in this server**",
+		"currentPage": "📄 Page - ",
+		"embedTitle": "🎶 Song Queue\n",
+		"embedCurrentSong": "🎵 **Current Song - [{title}]({url})**\n\n{info}"
+	},
+	"remove": {
+		"description": "Remove song from the queue",
+		"errorNotQueue": "⚠️ There is no queue.",
+		"usageReply": "ℹ️ Usage : +remove (Music Queue Number)",
+		"result": "<@{author}> ❌ Removed **{title}**"
+	},
+	"resume": {
+		"description": "Resume currently playing music",
+		"errorNotQueue": "⚠️ There is nothing playing",
+		"resultNotPlaying": "<@{author}> ▶ Resumed",
+		"errorPlaying": "⚠️ Queue is not paused."
+	},
+	"search": {
+		"description": "Search and select videos to play. (Premium)",
+		"usageReply": "ℹ️ Usage : +search (Music name)",
+		"errorAlreadyCollector": "⚠️ Search result list already active in channel.",
+		"errorNotChannel": "⚠️ Please join voice channel before search music",
+		"resultEmbedTtile": "ℹ️ **Reply with the song number you want to play**",
+		"resultEmbedDesc": "🔍 Search Results for: {search}",
+		"optionQuery": "Search query"
+	},
+	"skip": {
+		"description": "Skip the currently playing song",
+		"errorNotQueue": "⚠️ There is nothing playing",
+		"result": "<@{author}> ⏭ Skipped"
+	},
+	"skipto": {
+		"description": "Skip to the selected queue number",
+		"usageReply": "ℹ️ Usage : +skipto (Queue Number)",
+		"errorNotQueue": "⚠️ There is no queue.",
+		"errorNotValid": "⚠️ The queue is only support `{length}` songs",
+		"result": "<@{author}> ⏭ Skipped `{arg}`",
+		"args": {
+			"number": "The queue number to skip to"
+		}
+	},
+	"stop": {
+		"description": "Stops the music",
+		"errorNotQueue": "⚠️ There is no music playing.",
+		"result": "<@{author}> ⏹ Stopped"
+	},
+	"uptime": {
+		"description": "Display current bot session uptime",
+		"result": "🕒 Server uptime: `{days} day(s)` `{hours} hours` `{minutes} minutes` `{seconds} seconds`"
+	},
+	"volume": {
+		"description": "Change volume of currently playing music",
+		"errorNotQueue": "⚠️ There is no music playing.",
+		"errorNotChannel": "⚠️ Please join voice channel before set volume",
+		"currentVolume": "🔊 **{volume}%**",
+		"errorNotNumber": "ℹ️ Please use a number to set volume.",
+		"errorNotValid": "ℹ️ Please use a number between 0 - 100.",
+		"result": "🔊 **{arg}%**"
+	},
+	"common": {
+		"on": "**🟢 ON**",
+		"off": "**🔴 OFF**",
+		"enabled": "**🟢 ENABLED**",
+		"disabled": "**🔴 DISABLED**",
+		"errorNotChannel": "⚠️ Please join voice channel before playing music",
+		"cooldownMessage": "⚠️ Command cooldown `{time} secs`",
+		"errorCommand": "❌ Server Error (500)! Please try again."
+	},
+	"Invite me to your server!": "Invite me to your server!",
+	"Invite": "Invite",
+	"🚪 Invite to your server!": "🚪 Invite to your server!"
+}
